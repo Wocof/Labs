@@ -16,10 +16,10 @@ public class Lab1 {
         float[][] w1 = new float[11][12];
         for (int i = 0; i < w.length; i++) {
             for (int j = 0; j < x.length; j++) {
-                w1[i][j] = calculateelements(W[i],X[j]);
+                w1[i][j] = calculateelements(w[i],x[j]);
             }
         }
-        printmatrix(W1);
+        printmatrix(w1);
     }
 
     public static float calculateelements(short w, float x) {
@@ -36,10 +36,11 @@ public class Lab1 {
     public static void printmatrix(float[][] w1) {
         for (int i = 0; i < w1.length; i++) {
             for (int j = 0; j < w1[i].length; j++) {
-                System.out.printf("%9.2f", W1[i][j]);}
+                System.out.printf("%9.2f", w1[i][j]);}
             System.out.println();
         }
     }
 
 }
+
 

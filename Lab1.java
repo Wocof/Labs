@@ -22,18 +22,18 @@ public class Lab1 {
         printmatrix(W1);
     }
 
-    public static float calculateelements(short W, float X) {
+    public static float calculateelements(short w, float x) {
 
-        if (W == 11) {
-            return (float)Math.exp(Math.pow((1 - Math.exp(X)) / Math.log(Math.abs(X)), 2));}
+        if (w == 11) {
+            return (float)Math.exp(Math.pow((1 - Math.exp(x)) / Math.log(Math.abs(X)), 2));}
 
-        if (W == 5 || W == 10 || W == 12 || W == 14 || W == 15) {
-            return (float)Math.log(Math.pow(((Math.acos((X - 5.5) / 19) + 1) / 5), 2));}
+        if (w == 5 || w == 10 || w == 12 || w == 14 || w == 15) {
+            return (float)Math.log(Math.pow(((Math.acos((x - 5.5) / 19) + 1) / 5), 2));}
 
         else return (float)Math.asin(Math.pow(Math.sin(Math.cos(X)), 2));
     }
 
-    public static void printmatrix(float[][] W1) {
+    public static void printmatrix(float[][] w1) {
         for (int i = 0; i < w1.length; i++) {
             for (int j = 0; j < w1[i].length; j++) {
                 System.out.printf("%9.2f", W1[i][j]);}
@@ -42,3 +42,4 @@ public class Lab1 {
     }
 
 }
+

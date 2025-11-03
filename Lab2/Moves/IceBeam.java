@@ -1,4 +1,4 @@
-package Moves;
+package moves;
 import ru.ifmo.se.pokemon.*;
 
 public final class IceBeam extends SpecialMove {
@@ -16,4 +16,5 @@ public final class IceBeam extends SpecialMove {
     protected String describe() {
         return "Использует Ice Beam";
     }
+
 }

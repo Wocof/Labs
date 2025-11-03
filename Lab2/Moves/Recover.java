@@ -1,4 +1,4 @@
-package Moves;
+package moves;
 import ru.ifmo.se.pokemon.*;
 
 public final class Recover extends StatusMove {
@@ -15,4 +15,5 @@ public final class Recover extends StatusMove {
     @Override protected String describe() {
         return "Использует Attacks.Recover";
     }
+
 }

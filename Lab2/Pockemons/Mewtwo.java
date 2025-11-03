@@ -1,5 +1,5 @@
-package Pokemons;
-import Moves.*;
+package pokemons;
+import moves.*;
 import ru.ifmo.se.pokemon.*;
 
 public final class Mewtwo extends Pokemon {
@@ -12,5 +12,6 @@ public final class Mewtwo extends Pokemon {
         this.setMove(new EnergyBall(), new ShadowBall(), new Recover(), new Blizzard());
 
     }
+
 
 }

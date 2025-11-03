@@ -1,4 +1,4 @@
-package Moves;
+package moves;
 import ru.ifmo.se.pokemon.*;
 
 public final class ThunderWave extends StatusMove {
@@ -13,4 +13,5 @@ public final class ThunderWave extends StatusMove {
     @Override protected String describe() {
         return "Использует Thunder Wave";
     }
+
 }

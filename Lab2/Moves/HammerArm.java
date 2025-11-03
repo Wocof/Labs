@@ -1,4 +1,4 @@
-package Moves;
+package moves;
 import ru.ifmo.se.pokemon.*;
 
 public final class HammerArm extends PhysicalMove {
@@ -13,4 +13,5 @@ public final class HammerArm extends PhysicalMove {
     @Override protected String describe() {
         return "Использует Hammer Arm";
     }
+
 }

@@ -1,5 +1,5 @@
-import Pokemons.*;
-import Moves.*;
+import pokemons.*;
+import moves.*;
 import ru.ifmo.se.pokemon.*;
 
 public class Main {
@@ -24,4 +24,5 @@ public class Main {
         b.go();
 
     }
+
 }

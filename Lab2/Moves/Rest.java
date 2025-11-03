@@ -1,4 +1,4 @@
-package Moves;
+package moves;
 import ru.ifmo.se.pokemon.*;
 
 public final class Rest extends StatusMove {
@@ -17,4 +17,5 @@ public final class Rest extends StatusMove {
     protected String describe() {
         return "Использует Attacks.Rest";
     }
+
 }

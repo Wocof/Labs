@@ -1,4 +1,4 @@
-package Moves;
+package moves;
 import ru.ifmo.se.pokemon.*;
 
 public final class StoneEdge extends PhysicalMove {
@@ -18,4 +18,5 @@ public final class StoneEdge extends PhysicalMove {
     @Override protected String describe() {
         return "Использует Stone Edge";
     }
+
 }

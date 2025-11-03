@@ -8,7 +8,7 @@ public final class Recover extends StatusMove {
 
     @Override protected void applySelfEffects(Pokemon p) {
 
-       p.setMod(Stat.HP, (int) (p.getHP() * 1.5));
+        p.addEffect(new Effect().stat(Stat.HP, (int) (p.getHP() * 1.5)));
 
     }
 
@@ -17,3 +17,4 @@ public final class Recover extends StatusMove {
     }
 
 }
+

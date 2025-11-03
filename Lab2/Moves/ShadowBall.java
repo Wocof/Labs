@@ -1,4 +1,4 @@
-package Moves;
+package moves;
 import ru.ifmo.se.pokemon.*;
 
 public final class ShadowBall extends SpecialMove {
@@ -13,4 +13,5 @@ public final class ShadowBall extends SpecialMove {
     @Override protected String describe() {
         return "Использует Shadow Ball";
     }
+
 }

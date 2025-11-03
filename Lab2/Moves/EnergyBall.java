@@ -1,4 +1,4 @@
-package Moves;
+package moves;
 import ru.ifmo.se.pokemon.*;
 
 public final class EnergyBall extends SpecialMove {
@@ -14,6 +14,7 @@ public final class EnergyBall extends SpecialMove {
         return "Использует Energy Ball";
     }
 }
+
 
 
 

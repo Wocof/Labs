@@ -6,3 +6,6 @@
 
 ### Лабораторная работа 2
 [Lab2](https://github.com/Wocof/Labs/tree/main/Lab2)
+
+### Лабораторная работа 3-4
+[Lab3-4](https://github.com/Wocof/Labs/tree/main/Lab3-4)
